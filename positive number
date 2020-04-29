@@ -1,0 +1,9 @@
+#the list of numbers are below 
+
+numbers = [12,-7,5,-8,56]
+
+for num in numbers:         #starting a loop to check wheather each number is a positive number or not 
+   
+    if num >= 0:   #this is the condition to check , if number is greater than 0 then its positive else negative
+        
+        print(num, end = " ") 
